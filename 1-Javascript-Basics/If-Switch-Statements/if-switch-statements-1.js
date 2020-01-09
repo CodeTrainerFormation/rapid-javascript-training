@@ -121,6 +121,11 @@ switch (orderType3){
     
     console.log(discount);
     
+
+
+    var age = 17;
+    var beverage = (age >= 18) ? "beer" : "juice";
+    console.log(beverage);
     
     
     
