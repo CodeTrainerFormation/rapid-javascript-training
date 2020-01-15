@@ -33,6 +33,7 @@
         
         var clickHandler = function divClickHandler(event) {
             console.log(this.id);
+            console.log (event.type)
             event.stopPropagation(); // stop propagating the event
             event.preventDefault(); // prevent the default action of whatever was clicked, for exemple if we click on a link or a submit button, we want to prevent those default actions
         };
